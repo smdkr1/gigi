@@ -1,0 +1,37 @@
+/* 구글폰트 영역 */
+body {
+  .nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+
+nav,
+h1,
+h5,
+h2,
+.gaegu-regular {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  /* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: skyblue !important;
+}
+
+/*스토어영역*/
+body {text-decoration-style:none}
+
+
+/* 헤더 영역 */
+header{
+  background-image:  url(./image/header-bg-img.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
