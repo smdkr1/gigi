@@ -1,0 +1,76 @@
+
+/* 헤더 영역 */
+header{
+  background-image:  url(./image/header-bg-img.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+
+/* 구글폰트 영역 */
+body {
+  .nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+
+nav,
+h1,
+h5,
+h2,
+.gaegu-regular {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  /* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: skyblue !important;
+}
+
+/*스토어영역*/
+.body {text-decoration-style:none}
+#store {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 카드 */
+.card {
+  width: 100%;
+  max-width: 18rem;
+  margin: auto; 
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* 스토어 */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+/* 버튼 */
+.btn {
+  background-color: skyblue; 
+  color: #fff; 
+  border: none;
+}
+
+.btn:hover {
+  background-color: #fff; 
+}
